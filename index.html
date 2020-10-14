@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./main.css" />
+
+    <style>
+
+        nav {
+            width: 100%;
+            height: 60px;
+            background-color: #24292E;
+        }
+
+        input{
+            color: white;
+            background-color: #3F4448;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            }
+
+        .menu-2 {
+            background-color: white;
+            width: 100%;
+            height: 30px;
+            border:1px lightgrey;
+            border-style: none none solid none;
+        }
+
+        nav ul {
+                list-style-type: none;
+                padding: 0px;
+                display: flex;
+                align-items: center;
+                justify-content:space-around
+            }
+
+        .navlinks {
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+            display: block;
+        }        
+
+        .menu-2 ul{
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            justify-content: space-around;
+        }
+
+        .boxes {
+            width: 75%;
+            height: 550px;
+            background-color:white;
+            margin-left: 25%;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+       
+       .box{
+           width: 400px;
+           height: 100px;
+           background-color:white;;
+           border-radius: 8px;
+           border: 1px solid lightgrey;
+           margin: 5px;
+
+       }
+
+       h1 {
+           font-size: 17px;
+           color: #0000FF;
+           margin: 20px 0px 0px 20px;
+       }
+
+       p {
+           margin: 10px 0px 0px 20px;
+           font-size: 14px;
+       }
+
+       h2 {
+           font-size: 20px;
+           position: relative;
+
+       }
+
+       .user {
+           height: 550px;
+           width: 275px;
+           position: relative;
+           bottom: 565px;
+       }
+
+       .photo {
+           height: 250px;
+           width: 250px;
+           background-color: red;
+           z-index: 2;
+           margin: 0 auto;
+           border-radius: 50%;
+       }
+
+       .edit {
+           height: 30px;
+           width: 225px;
+           background-color: white;
+           margin: 0 auto;
+           border: 1px solid lightgray;
+           border-radius: 8px;
+       }
+
+       .edit>p {
+           text-align: center;
+           padding: 20px;
+           }
+       
+       .flex {
+           display: flex;
+           flex-wrap: wrap;
+       }
+
+
+    </style>
+
+</head>
+<body>
+
+    <nav>
+        
+        <input type="text" placeholder="Search or jump to...">
+        
+        <div class="navlinks">
+            <ul>
+                <li>Pull Requests</li>
+                <li>Issues</li>
+                <li>Marketplace</li>
+                <li>Events</li>
+                <li>Notifications</li>
+                <li>+</li>
+                <li>Profile</li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="menu-2">
+        <ul>
+                <li><a>Overview</a></li>
+                <li><a>Repositories</a></li>
+                <li><a>Projects</a></li>
+                <li><a>Packages</a></li>
+        </ul>
+    </div>
+
+    <div class="boxes">
+
+        <div class="popular">
+            <h2>Popular Repositories</h1>
+        </div>
+        
+        <div class="flex">
+
+            
+            <div class="box one">
+                <h1>hello-world</h1>
+                <p>Just another repository</p>
+            </div>
+            
+            <div class="box two">
+                <h1>hello-world</h1>
+                <p>Just another repository</p>
+            </div>
+            
+            <div class="box three">
+                <h1>hello-world</h1>
+                <p>Just another repository</p>
+            </div>
+            
+            <div class="box four">
+                <h1>hello-world</h1>
+                <p>Just another repository</p>
+            </div>
+            
+            <div class="box five">
+                <h1>hello-world</h1>
+                <p>Just another repository</p>
+            </div>
+            
+            <div class="box six">
+                <h1>hello-world</h1>
+                <p>Just another repository</p>
+            </div>
+            
+            <div class="box seven">
+                <h1>hello-world</h1>
+                <p>Just another repository</p>
+            </div>
+            
+            <div class="box eight">
+                <h1>hello-world</h1>
+                <p>Just another repository</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="user">
+        <div class="photo"></div>
+        <h3> Colin Reeder </h3>
+        <p3>colin-shreeder</p3>
+        <div class="edit">
+            <p4>Edit Profile</p4>
+        </div>
+        <p5>DevMountain</p5><br>
+        <p6>Salt Lake City, UT</p6>
+    </div>
+
+
+</body>
+</html>
